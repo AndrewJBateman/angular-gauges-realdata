@@ -1,6 +1,6 @@
 # Angular Gauges Real Data
 
-App to display real data using an Angular component wrapper [ng-canvas-gauges](https://www.npmjs.com/package/ng-canvas-gauges) for the [canvas-gauges](https://canvas-gauges.com/) library.
+App to display real data using an Angular component wrapper [ng-canvas-gauges](https://www.npmjs.com/package/ng-canvas-gauges) for the open-source Javascript [canvas-gauges](https://canvas-gauges.com/) library.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -17,7 +17,7 @@ App to display real data using an Angular component wrapper [ng-canvas-gauges](h
 
 ## General info
 
-* Data displayed on analogue and digital gauges.
+* Data displayed on an analogue gauge. A random number function is used to simulate real-time data.
 
 ## Screenshots
 
@@ -37,29 +37,32 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Code Examples
 
-* app.component.html - defines the basic qualities of an analogue gauge with digital display.
+* app.component.html - extract - defines some of the qualities of the analogue gauge
 
 ```html
 <radial-gauge
-    title="Turbine Velocity"
-    units="rpm"
-    width="500"
-    height="500"
-    min-value="0"
-    max-value="140"
-    highlights='[]'
-></radial-gauge>
+  [value]="(value$ | async)"
+  title="Turbine Velocity"
+  units="rpm"
+  width="500"
+  height="500"
+
+  min-value="0"
+  max-value="120"
+  major-ticks="0, ,20, ,40, ,60, ,80, ,100, ,120"
+  minor-ticks="2"
+  font-numbers-size="25"
 ```
 
 ## Features
 
-* [Canvas Gauges website](https://canvas-gauges.com/) includes extensive [User documentation](https://canvas-gauges.com/documentation/user-guide/).
+* [Canvas Gauges website](https://canvas-gauges.com/) includes extensive [User Documentation](https://canvas-gauges.com/documentation/user-guide/).
 
 ## Status & To-Do List
 
-* Status: Very basic working app that displays a gauge, configurable from the `app.component.ts` file using values from [Highcharts documentation](https://api.highcharts.com/highcharts/chart#).
+* Status: Working app that displays a gauge, configurable from `app.component.html`.
 
-* To-Do: complete turorial. Add functionality and extend to include connection to an API.
+* To-Do: Add functionality and extend to include connection to an API.
 
 ## Inspiration
 
