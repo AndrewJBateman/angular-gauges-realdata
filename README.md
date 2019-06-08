@@ -25,9 +25,9 @@ App to display real data using an Angular component wrapper [ng-canvas-gauges](h
 
 ## Technologies
 
-* [Angular CLI v7.3.9](https://github.com/angular/angular-cli)
+* [Angular CLI v8.0.2](https://github.com/angular/angular-cli)
 
-* [Angular framework v7.2.0](https://angular.io/)
+* [Angular framework v8.0.0](https://angular.io/)
 
 * [ng-canvas-gauges v6.0.4](https://www.npmjs.com/package/ng-canvas-gauges)
 
