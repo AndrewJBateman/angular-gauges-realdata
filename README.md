@@ -25,15 +25,12 @@ App to display real data using an Angular component wrapper [ng-canvas-gauges](h
 
 ## Technologies
 
-* [Angular CLI v8.0.2](https://github.com/angular/angular-cli)
-
-* [Angular framework v8.0.0](https://angular.io/)
-
+* [Angular framework v9.0.1](https://angular.io/)
 * [ng-canvas-gauges v6.0.4](https://www.npmjs.com/package/ng-canvas-gauges)
 
 ## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Install dependencies with `npm i` then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code Examples
 
@@ -60,9 +57,14 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Status & To-Do List
 
-* Status: Working app that displays a gauge, configurable from `app.component.html`.
+* Status: Not working - error message:
 
-* To-Do: Add functionality and extend to include connection to an API.
+`app.component.html:1 ERROR TypeError: Cannot read property update of undefined
+    at RadialGauge$$1.push../node_modules/ng-canvas-gauges/fesm5/ng-canvas-gauges.js.BaseGauge.basicUpdate (ng-canvas-gauges.js:347).` 
+    
+* Once fixed, will be app that displays a gauge, configurable from `app.component.html`.
+
+* To-Do: Fix. Add functionality and extend to include connection to an API.
 
 ## Inspiration
 
