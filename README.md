@@ -1,10 +1,10 @@
-# Angular Gauges Real Data
+# :zap: Angular Gauges Real Data
 
-App to display real data using an Angular component wrapper [ng-canvas-gauges](https://www.npmjs.com/package/ng-canvas-gauges) for the open-source Javascript [canvas-gauges](https://canvas-gauges.com/) library.
+* App to display real data using an Angular component wrapper [ng-canvas-gauges](https://www.npmjs.com/package/ng-canvas-gauges) for the open-source Javascript [canvas-gauges](https://canvas-gauges.com/) library.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -15,24 +15,24 @@ App to display real data using an Angular component wrapper [ng-canvas-gauges](h
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
 * Data displayed on an analogue gauge. A random number function is used to simulate real-time data.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/gauge.png)
 
-## Technologies
+## :signal_strength: Technologies
 
 * [Angular framework v9.0.1](https://angular.io/)
 * [ng-canvas-gauges v6.0.4](https://www.npmjs.com/package/ng-canvas-gauges)
 
-## Setup
+## :floppy_disk: Setup
 
 Install dependencies with `npm i` then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code Examples
+## :computer: Code Examples
 
 * app.component.html - extract - defines some of the qualities of the analogue gauge
 
@@ -51,11 +51,11 @@ Install dependencies with `npm i` then run `ng serve` for a dev server. Navigate
   font-numbers-size="25"
 ```
 
-## Features
+## :cool: Features
 
 * [Canvas Gauges website](https://canvas-gauges.com/) includes extensive [User Documentation](https://canvas-gauges.com/documentation/user-guide/).
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Not working - error message:
 
@@ -63,13 +63,12 @@ Install dependencies with `npm i` then run `ng serve` for a dev server. Navigate
     at RadialGauge$$1.push../node_modules/ng-canvas-gauges/fesm5/ng-canvas-gauges.js.BaseGauge.basicUpdate (ng-canvas-gauges.js:347).` 
     
 * Once fixed, will be app that displays a gauge, configurable from `app.component.html`.
-
 * To-Do: Fix. Add functionality and extend to include connection to an API.
 
-## Inspiration
+## :clap: Inspiration
 
 * [Post by Wayne Parrott: Add A Realtime Gauge To Your Angular Project](http://www.wayneparrott.com/add-a-realtime-gauge-to-your-angular-project/)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
