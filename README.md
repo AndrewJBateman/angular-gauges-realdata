@@ -25,8 +25,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v9.0.1](https://angular.io/)
-* [ng-canvas-gauges v6.0.4](https://www.npmjs.com/package/ng-canvas-gauges)
+* [Angular framework v10](https://angular.io/)
+* [ng-canvas-gauges v6](https://www.npmjs.com/package/ng-canvas-gauges)
 
 ## :floppy_disk: Setup
 
@@ -60,8 +60,8 @@ Install dependencies with `npm i` then run `ng serve` for a dev server. Navigate
 * Status: Not working - error message:
 
 `app.component.html:1 ERROR TypeError: Cannot read property update of undefined
-    at RadialGauge$$1.push../node_modules/ng-canvas-gauges/fesm5/ng-canvas-gauges.js.BaseGauge.basicUpdate (ng-canvas-gauges.js:347).` 
-    
+    at RadialGauge$$1.push../node_modules/ng-canvas-gauges/fesm5/ng-canvas-gauges.js.BaseGauge.basicUpdate (ng-canvas-gauges.js:347).
+
 * Once fixed, will be app that displays a gauge, configurable from `app.component.html`.
 * To-Do: Fix. Add functionality and extend to include connection to an API.
 
