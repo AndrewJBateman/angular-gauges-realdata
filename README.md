@@ -1,6 +1,6 @@
 # :zap: Angular Gauges Real Data
 
-* App to display real data using an Angular component wrapper [ng-canvas-gauges](https://www.npmjs.com/package/ng-canvas-gauges) for the open-source Javascript [canvas-gauges](https://canvas-gauges.com/) library.
+* App to display data using an Angular component wrapper [ng-canvas-gauges](https://www.npmjs.com/package/ng-canvas-gauges) for the open-source Javascript [canvas-gauges](https://canvas-gauges.com/) library.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -17,15 +17,15 @@
 
 ## :books: General info
 
-* Data displayed on an analogue gauge. A random number function is used to simulate real-time data.
+* Data displayed on analogue gauges - examples from [CANVAS GAUGES USER GUIDE](https://canvas-gauges.com/documentation/user-guide/)
 
 ## :camera: Screenshots
 
-![Example screenshot](./img/gauge.png)
+![Example screenshot](./img/gauges.png)
 
 ## :signal_strength: Technologies
 
-* [Angular framework v10](https://angular.io/)
+* [Angular framework v11](https://angular.io/)
 * [ng-canvas-gauges v6](https://www.npmjs.com/package/ng-canvas-gauges)
 
 ## :floppy_disk: Setup
@@ -57,17 +57,13 @@ Install dependencies with `npm i` then run `ng serve` for a dev server. Navigate
 
 ## :clipboard: Status & To-Do List
 
-* Status: Not working - error message:
-
-`app.component.html:1 ERROR TypeError: Cannot read property update of undefined
-    at RadialGauge$$1.push../node_modules/ng-canvas-gauges/fesm5/ng-canvas-gauges.js.BaseGauge.basicUpdate (ng-canvas-gauges.js:347).
-
-* Once fixed, will be app that displays a gauge, configurable from `app.component.html`.
-* To-Do: Fix. Add functionality and extend to include connection to an API.
+* Status: Working
+* To-Do: Nothing
 
 ## :clap: Inspiration
 
 * [Post by Wayne Parrott: Add A Realtime Gauge To Your Angular Project](http://www.wayneparrott.com/add-a-realtime-gauge-to-your-angular-project/)
+* [CANVAS GAUGES USER GUIDE](https://canvas-gauges.com/documentation/user-guide/)
 
 ## :envelope: Contact
 

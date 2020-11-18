@@ -1,48 +1,55 @@
-<radial-gauge
-  [value]="(value$ | async)"
-  title="Turbine Velocity"
-  units="rpm"
-  width="500"
-  height="500"
+<head>
+  <title>Gauges as Components</title>
+  <script src="gauge.min.js"></script>
+</head>
+<body>
+  <!-- Injecting linear gauge -->
+  <canvas
+    data-type="linear-gauge"
+    data-width="160"
+    data-height="600"
+    data-border-radius="20"
+    data-borders="0"
+    data-bar-stroke-width="20"
+    data-minor-ticks="10"
+    data-major-ticks="0,10,20,30,40,50,60,70,80,90,100"
+    data-value="22.3"
+    data-units="°C"
+    data-color-value-box-shadow="false"
+  ></canvas>
 
-  min-value="0"
-  max-value="120"
-  major-ticks="0, ,20, ,40, ,60, ,80, ,100, ,120"
-  minor-ticks="2"
-  font-numbers-size="25"
-
-  color-plate="#000"
-  color-plate-end="#222"
-  color-major-ticks="#888"
-  color-minor-ticks="#ddd"
-  color-title="#eee"
-  color-units="#ccc"
-  color-numbers="#bb1"
-  highlights='[
-    {"from": 80, "to": 120, "color": "rgba(200, 50, 50, .5)"}
-  ]'
-
-  needle-type="arrow"
-  needle-width="2"
-  needle-circle-size="7"
-  needle-circle-outer="true"
-  needle-circle-inner="false"
-  color-needle-shadow-down="#550"
-  color-needle-circle-outer="#333"
-  color-needle-circle-outer-end="#111"
-
-  animation-duration="900"
-  animation-rule="linear"
-
-  borders="true"
-  border-inner-width="10"
-  border-middle-width="1"
-  border-outer-width="5"
-  border-shadow-width="0"
-  color-border-outer="#111"
-  color-border-middle="#888"
-  color-border-middle-end="#555"
-  color-border-inner="#111"
-
-  value-box="false"
-></radial-gauge>
+  <!-- Injecting radial gauge -->
+  <canvas
+    data-type="radial-gauge"
+    data-width="400"
+    data-height="400"
+    data-units="Km/h"
+    data-title="false"
+    data-value="0"
+    data-min-value="0"
+    data-max-value="220"
+    data-major-ticks="0,20,40,60,80,100,120,140,160,180,200,220"
+    data-minor-ticks="2"
+    data-stroke-ticks="false"
+    data-highlights='[
+            { "from": 0, "to": 50, "color": "rgba(0,255,0,.15)" },
+            { "from": 50, "to": 100, "color": "rgba(255,255,0,.15)" },
+            { "from": 100, "to": 150, "color": "rgba(255,30,0,.25)" },
+            { "from": 150, "to": 200, "color": "rgba(255,0,225,.25)" },
+            { "from": 200, "to": 220, "color": "rgba(0,0,255,.25)" }
+        ]'
+    data-color-plate="#222"
+    data-color-major-ticks="#f5f5f5"
+    data-color-minor-ticks="#ddd"
+    data-color-title="#fff"
+    data-color-units="#ccc"
+    data-color-numbers="#eee"
+    data-color-needle-start="rgba(240, 128, 128, 1)"
+    data-color-needle-end="rgba(255, 160, 122, .9)"
+    data-value-box="true"
+    data-animation-rule="bounce"
+    data-animation-duration="500"
+    data-font-value="Led"
+    data-animated-value="true"
+  ></canvas>
+</body>
