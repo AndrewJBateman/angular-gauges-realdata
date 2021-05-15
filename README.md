@@ -29,7 +29,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v11](https://angular.io/)
+* [Angular framework v12](https://angular.io/)
 * [ng-canvas-gauges v6](https://www.npmjs.com/package/ng-canvas-gauges)
 
 ## :floppy_disk: Setup
