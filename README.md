@@ -1,6 +1,6 @@
 # :zap: Angular Gauges Real Data
 
-* App to display data using an Angular component wrapper [ng-canvas-gauges](https://www.npmjs.com/package/ng-canvas-gauges) for the open-source Javascript [canvas-gauges](https://canvas-gauges.com/) library.
+* App to display data using an Angular component wrapper [ng-canvas-gauges](https://www.npmjs.com/package/ng-canvas-gauges) for the open-source Javascript [canvas-gauges](https://canvas-gauges.com/) library. Don't update.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-gauges-realdata?style=plastic)
@@ -30,7 +30,7 @@
 ## :signal_strength: Technologies
 
 * [Angular framework v12](https://angular.io/)
-* [ng-canvas-gauges v6](https://www.npmjs.com/package/ng-canvas-gauges)
+* [ng-canvas-gauges v6](https://www.npmjs.com/package/ng-canvas-gauges). Published 3 years ago.
 
 ## :floppy_disk: Setup
 
