@@ -10,7 +10,7 @@
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Angular Gauges Realdata](#zap-angular-gauges-realdata)
+* [:zap: Angular Gauges Real Data](#zap-angular-gauges-real-data)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
@@ -33,7 +33,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v13](https://angular.io/)
+* [Angular framework v14](https://angular.io/)
 * [ng-canvas-gauges v6](https://www.npmjs.com/package/ng-canvas-gauges). Published 3 years ago.
 
 ## :floppy_disk: Setup
