@@ -19,6 +19,7 @@
     "@angular/platform-browser": "^16.0.3",
     "@angular/platform-browser-dynamic": "^16.0.3",
     "@angular/router": "^16.0.3",
+    "@biacsics/ng-canvas-gauges": "^6.0.7",
     "core-js": "^3.30.2",
     "ng-canvas-gauges": "^6.0.4",
     "querystringify": "^2.2.0",

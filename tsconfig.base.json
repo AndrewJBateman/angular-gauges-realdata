@@ -8,6 +8,7 @@
     "module": "es2020",
     "moduleResolution": "node",
     "experimentalDecorators": true,
+    "skipLibCheck": true,
     "importHelpers": true,
     "target": "ES2022",
     "typeRoots": [
