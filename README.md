@@ -1,6 +1,6 @@
 # :zap: Angular Gauges Real Data
 
-* App to display data using an Angular component wrapper [ng-canvas-gauges](https://www.npmjs.com/package/ng-canvas-gauges) for the open-source Javascript [canvas-gauges](https://canvas-gauges.com/) library.
+* App to display data using an Angular component wrapper [ng-canvas-gauges](https://www.npmjs.com/package/ng-canvas-gauges) for the open-source Javascript [biacsics/ng-canvas-gauges v6](https://www.npmjs.com/package/@biacsics/ng-canvas-gauges) library.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-gauges-realdata?style=plastic)
@@ -33,8 +33,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v15](https://angular.io/)
-* [ng-canvas-gauges v6](https://www.npmjs.com/package/ng-canvas-gauges). Published 3 years ago.
+* [Angular framework v16](https://angular.io/)
+* [biacsics/ng-canvas-gauges v6](https://www.npmjs.com/package/@biacsics/ng-canvas-gauges). Published 3 years ago. Works with Angular 9+
 
 ## :floppy_disk: Setup
 
@@ -81,4 +81,4 @@
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@gmail.com
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: `gomezbateman@gmail.com`
