@@ -33,7 +33,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v16](https://angular.io/)
+* [Angular framework v17](https://angular.io/)
 * [biacsics/ng-canvas-gauges v6](https://www.npmjs.com/package/@biacsics/ng-canvas-gauges). Published 3 years ago. Works with Angular 9+
 
 ## :floppy_disk: Setup
@@ -72,7 +72,6 @@
 
 ## :clap: Inspiration
 
-* [Post by Wayne Parrott: Add A Realtime Gauge To Your Angular Project](http://www.wayneparrott.com/add-a-realtime-gauge-to-your-angular-project/)
 * [CANVAS GAUGES USER GUIDE](https://canvas-gauges.com/documentation/user-guide/)
 
 ## :file_folder: License
