@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-gauges-realdata:build"
+            "buildTarget": "angular-gauges-realdata:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-gauges-realdata:build:production"
+              "buildTarget": "angular-gauges-realdata:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-gauges-realdata:build"
+            "buildTarget": "angular-gauges-realdata:build"
           }
         },
         "test": {
